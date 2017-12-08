@@ -46,5 +46,6 @@
         android:padding="20sp"
         android:layout_marginStart="60sp"
         android:text="Register"
+
         />
 </RelativeLayout>

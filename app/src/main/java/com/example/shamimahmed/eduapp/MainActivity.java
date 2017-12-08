@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
@@ -19,17 +20,24 @@ import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 public class MainActivity extends AppCompatActivity {
 
-
-    SignInButton button;
-    FirebaseAuth mAuth;
-    private final static int RC_SIGN_IN=2;
-
-    GoogleApiClient mGoogleSignInClient;
+    EditText usernameEt, passwordEt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        usernameEt=(EditText)findViewById(R.id.user);
+        passwordEt=(EditText)findViewById(R.id.pass);
+    }
+
+    public void onLogin(View view){
+
+        String username=usernameEt.getText().toString();
+        String password=passwordEt.getText().toString();
+        String type="login";
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+        backgroundWorker.execute(type, username, password);
+
     }
 
 
