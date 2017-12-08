@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "755182627183",
+    "firebase_url": "https://the-edu-app.firebaseio.com",
+    "project_id": "the-edu-app",
+    "storage_bucket": "the-edu-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755182627183:android:7fa9e2872a72c72b",
+        "android_client_info": {
+          "package_name": "com.example.shamimahmed.eduapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755182627183-j5651hp5eo5hos70vk8qasukg6tcfu5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shamimahmed.eduapp",
+            "certificate_hash": "1c122c73abcf22f5b25788a8b165bc8a548a2f99"
+          }
+        },
+        {
+          "client_id": "755182627183-vktjdi8aahf2922vc71e31r673ccpds7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Dt_StB89a1cBMJ7nilVo02V1BxQA7-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755182627183-vktjdi8aahf2922vc71e31r673ccpds7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

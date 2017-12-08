@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:padding="20sp"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:padding="20sp"
+        android:hint="Enter Your Password"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:padding="20sp"
+        android:hint="Enter Your Email ID"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Phone Number"
+        android:layout_below="@id/email"
+        android:padding="20sp"
+        android:inputType="phone"
+        android:id="@+id/phon"
+        />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phon"
+        android:layout_marginTop="45sp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="20sp"
+        android:layout_marginStart="60sp"
+        android:text="Register"
+        />
+</RelativeLayout>
